@@ -1,0 +1,44 @@
+footer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 0 auto;
+  border-top: 0.025rem solid $c-lightgrey;
+
+  h1 {
+    display: flex;
+    justify-content: center;
+   }
+}
+
+
+.footer-other-posts-container {
+  display: flex;
+}
+
+.footer-other-posts {
+  position: relative;
+  flex-grow: 1;
+
+  h4 {
+    display: inline;
+    position: absolute;
+    bottom: -4%;
+    left: 5%;
+
+
+   }
+
+  img {
+    width: 100%;
+
+  }
+}
+
+.footer-navbar-container {
+  ul {
+    padding-right: 2rem;
+    float: right;
+
+  }
+}

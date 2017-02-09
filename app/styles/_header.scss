@@ -5,22 +5,26 @@ header {
   background-repeat: no-repeat;
   text-align: center;
 
+
+  nav {
+    ul {
+      float: right;
+      list-style: none;
+    }
+
+    li {
+      display: inline;
+      margin: 1rem;
+    }
+  }
+
   h1 {
     clear: both;
   }
 }
 
-nav {
-  ul {
-    float: right;
-    list-style: none;
-  }
 
-  li {
-    display: inline;
-    margin: 1rem;
-  }
-}
+
 
 .nav-container {
   width: 70%;
